@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Dopamina</title>
+    
+    <link href="dopamiba-removebg-preview.png" rel="icon">
+    
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+     
+    <center>
+    <button id="buttonConfigUm" onclick="this.style.display='none'; mostrarTudo('tudo');">Dopamina</button>
+
+    <hr id="sumirHr">
+    
+    <p id="principal">o hormônio da recompensa  </p>
+    </center>
+    
+<div style="display: none;" id="tudo">
+        
+        <div class="container">
+    <h1>Dopamina</h1>
+    
+    <div class="card">
+      <button class="toggle-btn" onclick="mostrarBotao('oque')">O que é? </button>
+      <div class="content" id="oque">
+        <p>A dopamina é um neurotransmissor, uma substância química que atua como mensageira no cérebro, transmitindo sinais entre os neurônios.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <button class="toggle-btn" onclick="mostrarBotao('producao')">Onde é produzida?</button>
+      <div class="content" id="producao">
+        <p>É produzida no cérebro, principalmente na área tegmental ventral (VTA), na substância negra e no hipotálamo.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <button class="toggle-btn" onclick="mostrarBotao('funcao')">Qual a função?</button>
+      <div class="content" id="funcao">
+        <p>A dopamina está ligada à sensação de prazer, recompensa, motivação e desejo.
+Mas não é só "prazer" no sentido físico.
+O relacionamento vai além do toque ou da presença física, envolve atenção, reconhecimento, vínculo emocional, e nisso tudo a dopamina tem papel central.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <button class="toggle-btn" onclick="mostrarBotao('habitos')">Itens que aumentam a dopamina: </button>
+      <div class="content" id="habitos">
+        <ul>
+          <li>Atividade física</li>
+          <li>Comer chocolate</li>
+          <li>Ouvir música</li>
+          <li>Alcançar metas</li>
+          <li>Estar com amigos e pessoas queridas</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <button class="toggle-btn" onclick="mostrarBotao('formula')">Ligação com a química: </button>
+      <div class="content" id="formula">
+        <p>Fórmula Química: <strong>C₈H₁₁NO₂</strong></p>
+        <p>O que significa cada parte:</p>
+        <ul>
+          <li>C₈ → 8 átomos de carbono</li>
+          <li>H₁₁ → 11 átomos de hidrogênio</li>
+          <li>N → 1 átomo de nitrogênio</li>
+          <li>O₂ → 2 átomos de oxigênio</li>
+        </ul>
+        <p>Ligações: covalentes (compartilhamento de elétrons)</p>
+        <img src="/dopamina.jpeg" alt="representação da dopamina" style="width: 300px; height: auto;">   
+      </div>
+    </div>
+
+    <div class="card">
+      <button class="toggle-btn" onclick="mostrarBotao('exemplo')">Exemplos práticos: </button>
+      <div class="content" id="exemplo">
+        <ul>
+          <li>Você termina um projeto → dopamina liberada</li>
+          <li>Recebe elogios → dopamina</li>
+          <li id="botazin" onclick="tocar2()">Brainrot ou usar redes sociais → estimula (mas pode viciar)</li>
+        </ul>
+        <audio id="brainrot" src="tung-tung-sahur.mp3"></audio>
+      </div>
+    </div>
+
+    <div class="card">
+      <button class="toggle-btn" onclick="mostrarBotao('extra'); tocar()">The Weeknd </button>
+      <div class="content" id="extra">
+        <audio id="musica" src="The Weeknd-Cant Feel My Face.mp3"></audio>
+        <h3>Now playing: Can't Feel My Face - The Weeknd</h3>
+        <p>“She told me, Don't worry about it  <br> She told me, Don't worry no more” </p>
+        <p>transmite a ideia de entrega total a uma experiência prazerosa, mesmo que tenha consequências.</p>
+        <p>Na música, Abel descreve uma sensação tão intensa que “não sente o próprio rosto”, o que simboliza o efeito entorpecente de uma descarga de dopamina.</p>
+      </div>
+    </div>
+
+    
+<script src="script.js"></script>
+</body>
+</html>
