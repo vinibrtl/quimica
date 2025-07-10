@@ -60,7 +60,7 @@ h1 {
 
 .toggle-btn {
   width: 100%;
-  background-color: #0077cc;
+  background-color:#0077cc;
   color: black;
   border: none;
   padding: 1rem;
@@ -71,7 +71,7 @@ h1 {
 }
 
 .toggle-btn:hover {
-  background-color: #005fa3;
+  background-color:#005fa3;
 }
 
 .content {
